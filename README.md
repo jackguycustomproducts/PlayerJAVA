@@ -7,7 +7,7 @@ Simple Java-based player app for playing DMX recordings made with the DMX Record
 - Download and install the official Java runtime on your device. I developed this with version 20. 
 - Download the bin/App.class file from this repository to your device.
 - From the terminal or console, navigate the folder containing the App.class file.
-  - It is easiest to place all of your DMX and audio files in the same folder.
+  - It is easiest to place the App.class file and all of your DMX and audio files in the same folder.
 
 ## Playback
 This example assumes your terminal is open to the folder where the App.class file is stored.
