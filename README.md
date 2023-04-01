@@ -12,12 +12,12 @@ Simple Java-based player app for playing DMX recordings made with the DMX Record
 ## Playback
 This example assumes your terminal is open to the folder where the App.class file is stored.
 
-From the terminal:
+From the terminal prompt:
 ```
-$>java App [path of .DMX file] [IP Address] [Optional: Audio file]
+java App [path of .DMX file] [IP Address] [Optional: Audio file]
 ```
 ```
-$>java App Bells.dmx 192.168.1.255 Bells.wav
+java App Bells.dmx 192.168.1.255 Bells.wav
 ```
 
 As with the Windows app, you can unicast to a single IP address by entering the device's IP address. You can broadcast by replacing the last number in the IP address with 255. For example, 192.168.1.15 is a unicast address. 192.168.1.255 will broadcast to all devices on whose address starts with 192.168.1.*** .
