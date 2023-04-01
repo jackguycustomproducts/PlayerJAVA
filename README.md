@@ -23,4 +23,4 @@ java App Bells.dmx 192.168.1.255 Bells.wav
 As with the Windows app, you can unicast to a single IP address by entering the device's IP address. You can broadcast by replacing the last number in the IP address with 255. For example, 192.168.1.15 is a unicast address. 192.168.1.255 will broadcast to all devices on whose address starts with 192.168.1.*** .
 
 ## Schedules and Automation
-Since this app runs with terminal commands, you can use a schduling tool or script to fire off the commands in sequences, loops, and at certian times. Look to Google for examples on how to scheulde tasks and make terminal scrips for your platform.
+Since this app runs with terminal commands, you can use a scheduling tool or script to fire off the commands in sequences, loops, and at certain times. Look to Google for examples on how to schedule tasks and make terminal scripts for your platform.
